@@ -1,0 +1,13 @@
+package calculadoraheren;
+
+public class Division extends Operacion {
+    double division = 0;
+    public Division (double n1, double n2) {
+        super(n1, n2, '/');
+        this.division = n1 / n2;
+        this.setRes(this.division);
+        
+        
+    }
+    
+}
